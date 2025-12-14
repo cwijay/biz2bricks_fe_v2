@@ -1,0 +1,74 @@
+/* Kwality Logo Inspired Theme - Responsive CSS */
+
+:root {
+  --kwality-bg: #fff8e1; /* Creamy white */
+  --kwality-gold: #ffd700; /* Gold */
+  --kwality-brown: #6d4c41; /* Rich brown */
+  --kwality-red: #c62828; /* Deep red */
+  --kwality-radius: 16px;
+  --kwality-font: 'Montserrat', 'Segoe UI', Arial, sans-serif;
+}
+
+.kwality-container {
+  background: var(--kwality-bg);
+  border-radius: var(--kwality-radius);
+  box-shadow: 0 4px 24px rgba(109, 76, 65, 0.08);
+  padding: 2rem;
+  max-width: 480px;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.kwality-logo {
+  width: 120px;
+  height: auto;
+  margin-bottom: 1.5rem;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(198, 40, 40, 0.12);
+}
+
+.kwality-title {
+  color: var(--kwality-brown);
+  font-family: var(--kwality-font);
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.kwality-button {
+  background: linear-gradient(90deg, var(--kwality-gold), var(--kwality-red));
+  color: #fff;
+  font-family: var(--kwality-font);
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: var(--kwality-radius);
+  padding: 0.75rem 2rem;
+  margin-top: 1.5rem;
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+}
+
+.kwality-button:hover {
+  box-shadow: 0 2px 12px rgba(198, 40, 40, 0.18);
+}
+
+@media (max-width: 600px) {
+  .kwality-container {
+    padding: 1rem;
+    max-width: 98vw;
+  }
+  .kwality-title {
+    font-size: 1.3rem;
+  }
+  .kwality-logo {
+    width: 80px;
+  }
+  .kwality-button {
+    padding: 0.5rem 1.2rem;
+    font-size: 0.95rem;
+  }
+}

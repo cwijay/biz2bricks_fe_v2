@@ -1,0 +1,25 @@
+.excel-markdown-output h1, .excel-markdown-output h2, .excel-markdown-output h3 {
+  font-weight: bold;
+  color: #2563eb;
+}
+.excel-markdown-output strong {
+  font-weight: bold;
+  color: #d32f2f;
+}
+.excel-markdown-output table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1em 0;
+}
+.excel-markdown-output th {
+  background: #f5f5f5;
+  color: #2563eb;
+  font-weight: bold;
+}
+.excel-markdown-output td {
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+}
+.excel-markdown-output tr:nth-child(even) td {
+  background: #fafafa;
+}

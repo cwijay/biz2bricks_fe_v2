@@ -1,0 +1,63 @@
+/* Unified and enhanced markdown content formatting */
+.formatted-markdown {
+  font-size: 1.08rem;
+  color: #222;
+  line-height: 1.8;
+  font-family: 'Inter', Arial, sans-serif;
+}
+.custom-markdown-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 18px 0;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.custom-markdown-th, .custom-markdown-td {
+  border: 1px solid #e0e0e0;
+  padding: 12px 16px;
+  text-align: left;
+  font-size: 1rem;
+}
+.custom-markdown-th {
+  background: #e63946;
+  color: #111;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+.custom-markdown-td {
+  background: #fff;
+}
+.custom-markdown-table tr:nth-child(even) .custom-markdown-td {
+  background: #f3f4f6;
+}
+.custom-markdown-table tr:hover .custom-markdown-td {
+  background: #ffe5e9;
+}
+.custom-markdown-p {
+  margin: 10px 0;
+  font-size: 1.05rem;
+}
+.formatted-markdown h1, .formatted-markdown h2, .formatted-markdown h3 {
+  color: #e63946;
+  margin-top: 1.2em;
+  margin-bottom: 0.5em;
+  font-weight: 700;
+}
+.formatted-markdown ul, .formatted-markdown ol {
+  margin-left: 1.5em;
+  margin-bottom: 1em;
+}
+.formatted-markdown li {
+  margin-bottom: 0.4em;
+}
+.formatted-markdown blockquote {
+  border-left: 4px solid #e63946;
+  background: #f9fafb;
+  padding: 8px 16px;
+  margin: 12px 0;
+  color: #444;
+  font-style: italic;
+}

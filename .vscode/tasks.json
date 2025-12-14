@@ -1,0 +1,11 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Install SheetJS for Excel parsing",
+			"type": "shell",
+			"command": "npm install xlsx",
+			"group": "build"
+		}
+	]
+}
